@@ -8,6 +8,16 @@
 </head>
 <body>
     <script>
+
+        var numeros = [1, 2, 3];
+        numeros.push(4);
+        document.write(numeros); // [1, 2, 3, 4]
+        document.write("<br>");
+        numeros.push(5, 6, 7);
+        document.write(numeros); // [1, 2, 3, 4, 5, 6, 7]
+        document.write("<br>");
+
+
         document.write("Data de Hoje : " + retornaData());
         document.write("<br>");
         document.write("Mês atual: " + retornaMesExtenso());

@@ -1,4 +1,9 @@
 
+
+
+
+
+//---------------------------Funções com datas 
 var data = new Date();
 
 var retornaData =  function (){
